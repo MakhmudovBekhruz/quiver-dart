@@ -35,7 +35,6 @@ import 'dart:collection';
 ///   `Optional<Optional<T>>`.
 ///
 /// Both of these should be very rare.
-@Deprecated('Generally, migrate to a nullable type.')
 class Optional<T> extends IterableBase<T> {
   /// Constructs an empty Optional.
   const Optional.absent() : _value = null;
